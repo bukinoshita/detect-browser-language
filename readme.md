@@ -37,7 +37,7 @@ import React, { Component } from 'react'
 
 export default class Page Component {
   componentDidMount() {
-    const detectBrowserLanguage require('detect-browser-language')
+    const detectBrowserLanguage = require('detect-browser-language')
     this.setState({ userLanguage: detectBrowserLanguage() })
   }
 
