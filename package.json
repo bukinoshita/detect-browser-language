@@ -1,6 +1,6 @@
 {
   "name": "detect-browser-language",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Detect browser language",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/detect-browser-language.git",
