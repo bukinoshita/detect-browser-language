@@ -23,7 +23,7 @@ $ yarn add browser-language
 ## Usage
 
 ```js
-// without SSR (server-side rendering)
+// without SSR (server-side rendering) — React example
 import React from 'react'
 import browserLanguage from 'browser-language'
 
@@ -32,7 +32,7 @@ export default () =>
 ```
 
 ```js
-// with SSR (server-side rendering)
+// with SSR (server-side rendering) — React example
 import React, { Component } from 'react'
 
 export default class Page Component {
@@ -49,12 +49,14 @@ export default class Page Component {
 }
 ```
 
+_Works with other libraries as well_
+
 
 ## Why
 
-If you have a website that has `intl` implemented use this library to get user preferred language instead trying to guess the language based on their geolocation. I might be in France but that does't mean I speak french.
+If you have a website that has `intl` implemented use this library to get user preferred language instead trying to guess the language based on their geolocation. I might be in France but that does't mean I speak/read french.
 
-<img src="/sindres-is-cool.png" alt="">
+<img src="/sindres-is-cool.png" alt="" width="550">
 
 
 ## License
