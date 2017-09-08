@@ -10,16 +10,6 @@ $ yarn add browser-language
 ```
 
 
-## Browser support
-
-- Chrome
-- Firefox
-- IE
-- Edge
-- Opera
-- Safari
-
-
 ## Usage
 
 ```js
@@ -50,6 +40,16 @@ export default class Page Component {
 ```
 
 _**PS**: Works with other libraries as well._
+
+
+## Browser support
+
+- Chrome
+- Firefox
+- IE
+- Edge
+- Opera
+- Safari
 
 
 ## Why
