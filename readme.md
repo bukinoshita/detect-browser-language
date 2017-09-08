@@ -49,7 +49,7 @@ export default class Page Component {
 }
 ```
 
-_Works with other libraries as well_
+_**PS**: Works with other libraries as well._
 
 
 ## Why
