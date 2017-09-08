@@ -1,4 +1,4 @@
-# browser-language
+# detect-browser-language
 
 > Detect browser language
 
@@ -6,40 +6,8 @@
 ## Install
 
 ```bash
-$ yarn add browser-language
+$ yarn add detect-browser-language
 ```
-
-
-## Usage
-
-```js
-// without SSR (server-side rendering) — React example
-import React from 'react'
-import browserLanguage from 'browser-language'
-
-export default () =>
-  <h1>{browserLanguage()}</h1>
-```
-
-```js
-// with SSR (server-side rendering) — React example
-import React, { Component } from 'react'
-
-export default class Page Component {
-  componentDidMount() {
-    const browserLanguage require('browser-language')
-    this.setState({ userLanguage: browserLanguage() })
-  }
-
-  render() {
-    const { userLanguage } = this.state
-
-    return <h1>{userLanguage}</h1>
-  }
-}
-```
-
-_**PS**: Works with other libraries as well._
 
 
 ## Browser support
@@ -50,6 +18,38 @@ _**PS**: Works with other libraries as well._
 - Edge
 - Opera
 - Safari
+
+
+## Usage
+
+```js
+// without SSR (server-side rendering) — React example
+import React from 'react'
+import detectBrowserLanguage from 'detect-browser-language'
+
+export default () =>
+  <h1>{detectBrowserLanguage()}</h1>
+```
+
+```js
+// with SSR (server-side rendering) — React example
+import React, { Component } from 'react'
+
+export default class Page Component {
+  componentDidMount() {
+    const detectBrowserLanguage require('detect-browser-language')
+    this.setState({ userLanguage: detectBrowserLanguage() })
+  }
+
+  render() {
+    const { userLanguage } = this.state
+
+    return <h1>{userLanguage}</h1>
+  }
+}
+```
+
+_PS:* Works with other libraries as well_
 
 
 ## Why

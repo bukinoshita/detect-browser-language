@@ -1,9 +1,9 @@
 {
-  "name": "browser-language",
+  "name": "detect-browser-language",
   "version": "0.0.1",
   "description": "Detect browser language",
   "main": "index.js",
-  "repository": "https://github.com/bukinoshita/browser-language.git",
+  "repository": "https://github.com/bukinoshita/detect-browser-language.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "keywords": [
